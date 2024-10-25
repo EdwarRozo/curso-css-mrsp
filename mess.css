@@ -1,0 +1,27 @@
+.camisa{
+    width: 400px;
+    height: 600px;
+    background: repeating-linear-gradient(
+        90deg, blue, blue 100px, red 100px, red 200px
+    )
+}
+.name{
+    font-size: 70px;
+    text-shadow: 2px 2px 6px,
+    black -3px 3px;
+    color: yellow;
+}
+.number{
+    font-size: 300px;
+    color: yellow;
+    font-weight: bold;
+    text-shadow: black -9px 15px;
+}
+.textoabajo{
+    font-size: 30px;
+    color: yellow;
+    font-weight: bold;
+    text-shadow:
+    black -3px 3px;
+    
+}

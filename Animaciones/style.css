@@ -1,0 +1,30 @@
+#animaciones{
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    background-color: darkcyan;
+    box-shadow: 20px 20px 10px,
+    -20px -20px 10px ;
+    animation-name: animar;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+@keyframes animar{
+    0%{
+        transform: scale(.3);
+        border-radius: 100%;
+        background-color: crimson;
+    }
+    50%{
+        background-color: rebeccapurple;
+    }
+    100%{
+        transform: rotateZ(30deg);
+        background-color: black;
+    }
+}

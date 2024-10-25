@@ -1,0 +1,28 @@
+#transicion{
+    background: orangered;
+    width:250px;
+    height: 250px;
+    border-radius: 10px;
+    animation: mover 2s infinite;
+    animation-delay: 1000ms;
+}
+@keyframes mover{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(300px);
+        background: linear-gradient(125deg, orangered 0%, red 100%);
+    }
+    50%{
+        transform: translateY(200px);
+        background: linear-gradient(to top, blue 0%, darkblue 100%);
+    }
+    75%{
+        transform: translateX(0) translateY(200px);
+        background: linear-gradient(to top, rgb(200, 114, 28) 0%, rgb(67, 210, 122) 100%);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

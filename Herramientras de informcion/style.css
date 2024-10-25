@@ -1,0 +1,33 @@
+.texto__uno{
+    background-color: crimson;
+    color: white;
+    font-size: 38px;
+    padding: 15px 32px;
+    margin: 100px;
+    display: inline-block;
+}
+.texto__uno .texto__dos{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 6px 0;
+    position: absolute;
+    z-index: 1;
+}
+.texto__uno .texto__dos::after{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:transparent transparent seagreen transparent;
+}
+.texto__uno:hover
+ .texto__dos{
+    visibility: visible ;
+    cursor: pointer;
+ }

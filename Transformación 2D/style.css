@@ -1,0 +1,19 @@
+div{
+    background: repeating-linear-gradient(
+        45deg,blue ,blue 10px,red 10px,red 20px
+        );
+    width: 200px;
+    height: 200px;
+    animation:  uwu 3s infinite;
+    transform: skewX(20deg);
+    animation-direction: alternate;
+}
+
+@keyframes uwu {
+    0%{
+        transform: skew(20deg, 20deg);
+    }
+    100%{
+        transform: skew(-20deg, -20deg);
+    }
+}

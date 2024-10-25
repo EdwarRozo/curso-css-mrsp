@@ -1,0 +1,13 @@
+#b{
+    border: 20px solid greenyellow;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background-color: darkred;
+    color: white;
+    border-image: url(images/images.png) 120 stretch;
+    /* border-image-slice: 25%;
+    border-image-repeat: repeat round;
+    border-image-width: 25px;
+    border-image-outset: 10px; */
+}

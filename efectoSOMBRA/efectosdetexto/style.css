@@ -1,0 +1,15 @@
+body{
+    background-color: bisque;
+}
+#texto{
+    width: 200px;
+    border: 3px solid brown;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 20px;
+    font-size: 24px;
+    margin: 0;
+    background-color: white;
+    resize: horizontal;
+}

@@ -1,0 +1,28 @@
+#container{
+    width: 980px;
+    margin: 0 auto;
+}
+#column_left{
+    width: 700px;
+    float: left;
+    background: yellowgreen;
+}
+#column_rigth{
+    width: 260px;
+    float: left;
+    background: darkolivegreen;
+}
+@media screen and (max-width:959px){
+    #container{
+        width: 100%;
+    }
+    #column_left{
+        width: 70%;
+    }
+    #column_rigth{
+        width: 30%;
+    }
+    img{
+        width: 100%;
+    }
+}

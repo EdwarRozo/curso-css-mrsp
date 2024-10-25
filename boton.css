@@ -1,0 +1,33 @@
+.not_push{
+    font-size: 100px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px ;
+}
+.fuera{
+    width: 400px;
+    height: 400px;
+    margin: 100px;;
+    background-color: rgb(130, 118, 118);
+    border-radius: 50%;
+    z-index: 3;
+}
+.derdesito{
+    width: 350px;
+    height: 350px;
+    background-color: darkgray;
+    border-radius: 50%;
+    z-index: 2;
+    transition: all .2s ease-in;
+}
+.boton{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    transition: all .2s ease-in;
+}
+.boton:hover{
+    transform: translateY(10px);
+    background-color: rgba(192, 4, 4, 0.896);
+    cursor: pointer;
+}

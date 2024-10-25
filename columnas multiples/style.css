@@ -1,0 +1,8 @@
+.columnas{
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 2px solid darkblue;
+}
+h1{
+    column-span: all;
+}

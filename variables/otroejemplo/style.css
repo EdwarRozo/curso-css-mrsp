@@ -1,0 +1,22 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 300px;
+    font-size: 30px;
+}
+.cursos{
+    --cursos-color: red;
+    --curso-fondo: yellow;
+}
+.lion{
+    display: inline-block;
+    border: 3px solid;
+    padding: 15px;
+    border-radius: 10px;
+    transition: .2s linear;
+}
+.lion:hover{
+    background: var(--curso-fondo);
+    color: var(--cursos-color);
+    cursor: pointer;
+}
+me

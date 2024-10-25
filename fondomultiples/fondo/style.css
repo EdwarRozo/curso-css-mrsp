@@ -1,0 +1,9 @@
+#fondo{
+    padding: 25px;
+    border: 12px solid red;
+    width: 340px;
+    height: 250px;
+    font-size: 25px;
+    background-color: mediumaquamarine;
+    background-clip: content-box;
+}
